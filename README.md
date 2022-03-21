@@ -10,7 +10,7 @@ The Budget Tracker allows you to calculate your budget with using
 * [License](#license)
 
 ## Screenshots
-![alt text](https://imgur.com/a/FIvoA3S)
+![](https://imgur.com/HvlMn2M)
 
 ## Installation
 1. Download or clone the source code
