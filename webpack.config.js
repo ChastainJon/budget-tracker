@@ -33,7 +33,7 @@ module.exports = {
             fingerprints: false,
             inject: false,
             icons: [{
-                src: path.resolve("./public/icons/icon-512x512"),
+                src: path("./public/icons/icon-512x512.png"),
                 sizes: [72, 96, 128, 144, 152, 192, 384, 512],
                 destination: path.join("assets", "icons")
             }]
