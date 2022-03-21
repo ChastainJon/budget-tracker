@@ -1,8 +1,5 @@
-const {populateTransactions} = require('./populate.js')
-
 let myChart
 let transactions = []
-
 
 async function populateChart() {
     await fetch("/api/transaction")

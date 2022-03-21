@@ -22,6 +22,21 @@ module.exports = {
         }),
         new BundleAnalyzerPLugin({
             analyzerMode: "static",
+        }),
+        new WebpackPwaManifest({
+            name: "Budget Calculator",
+            short_name: "Budget",
+            description: "An app that allows you to budget.",
+            start_url: "../index.html",
+            background_color: "#ffffff",
+            theme_color: "#ffffff",
+            fingerprints: false,
+            inject: false,
+            icons: [{
+                src: path.resolve("./public/icons/icon-512x512"),
+                sizes: [72, 96, 128, 144, 152, 192, 384, 512],
+                destination: path.join("assets", "icons")
+            }]
         })
     ],
     mode: 'development'

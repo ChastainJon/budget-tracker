@@ -1,16 +1,4 @@
-const {populateTransactions} = require('./populate')
-
 let transactions = []
-
-// fetch("/api/transaction")
-//   .then(response => {
-//     return response.json();
-//   })
-//   .then(data => {
-//     // save db data on global variable
-//     transactions = data;
-//   });
-
 
 async function populateTotal() {
     await fetch("/api/transaction")
